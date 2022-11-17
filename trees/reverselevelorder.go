@@ -52,10 +52,10 @@ import (
 //  Reverse level order traversal will be: [15, 7, 9, 20, 3]
 // Explanation 2:
 
-//  Nodes as level 3 : [3]
-//  Nodes at level 2: [6, 2]
-//  Nodes at level 1: [1]
-//  Reverse level order traversal will be: [3, 6, 2, 1]
+// Nodes as level 3 : [3]
+// Nodes at level 2: [6, 2]
+// Nodes at level 1: [1]
+// Reverse level order traversal will be: [3, 6, 2, 1]
 type treeNode struct {
 	left  *treeNode
 	value int
